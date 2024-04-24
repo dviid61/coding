@@ -22,6 +22,7 @@ form {
 }
 
 input {
+
     align-self: center;
     width: 90%;
 }
@@ -30,11 +31,15 @@ input {
     margin: auto;;
     border-radius: 16px;
     border: 0px;
+    letter-spacing: 1px;
     width: min-content;
     padding: 16px 50px;
     transition-duration: 0.4s;
 }
 
 #button:hover {
-    box-shadow: 0px 10px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color:white;
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px 0 rgba(46, 229, 157, 0.4);
+    transform: translateY(-7px);
 }
