@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: 280px;
+    height: 360px;
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 40px 0 #0007;
+    padding: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: #444;
+    box-sizing: border-box;
+}
+
+
+p {
+    list-style: none;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 14px;
+    text-shadow: 0 0 4px #f88;
+}
