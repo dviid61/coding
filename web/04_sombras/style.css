@@ -4,18 +4,26 @@ body {
 
 .box {
     width: 280px;
-    height: 360px;
     background: #e2e2e2;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     box-shadow: 0 0 40px 0 #0007;
     padding: 20px;
     padding-top: 10px;
     font-family: sans-serif;
     color: #444;
     box-sizing: border-box;
+    text-align: center;
 }
 
+h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #999;
+    letter-spacing: 5px;
+    font-weight: 100;
+    text-shadow: 0px 0px 5px #f92;
+}
 
 p {
     list-style: none;
@@ -23,4 +31,10 @@ p {
     line-height: 1.4;
     font-size: 14px;
     text-shadow: 0 0 4px #f88;
+}
+
+img {
+    width: 160px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px 1px #0007;
 }
