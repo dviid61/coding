@@ -1,39 +1,59 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>PDF in HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app_ida.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .pdf {
-        width: 100%;
-        aspect-ratio: 4 / 3;
-    }
-
-    .pdf,
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    h1,
-    h3 {
-        text-align: center;
-    }
-
-    h1 {
-        color: green;
-    }
-</style>
-
 <body>
-    <object class="pdf" 
-            data="8193H1.pdf"
-            width="800"
-            height="500">
-    </object>
-</body>
+    <div class="main">
+    <p id="title"><b>193 - Dirección a Pedrezuela/El Vellón</b></p>
+        <div class="busTimes">
+            <div class="sep">
+                <p id="nb1">bus time 1</p>
+                <p class="text" id="nbl1"> bus time 1</p>
+            </div>
 
+            <div class="sep">
+                <p id="nb2">bus time 1</p>
+                <p class="text" id="nbl2"> bus time 1</p>
+            </div>
+
+            <div class="sep">
+                <p id="nb3">bus time 1</p>
+                <p class="text" id="nbl3"> bus time 1</p>
+            </div>
+
+            <div class="sep">
+                <p id="nb4">bus time 1</p>
+                <p class="text" id="nbl4"> bus time 1</p>
+            </div>
+
+            <div class="sep">
+                <p id="nb5">bus time 1</p>
+                <p class="text" id="nbl5"> bus time 1</p>
+            </div>
+        </div>
+        <div class="timeUntil">
+            <div class="sep">
+                <p id="tl1">until time 1</p>
+            </div>
+            <div class="sep">
+                <p id="tl2">until time 1</p>
+            </div>
+            <div class="sep">
+                <p id="tl3">until time 1</p>
+            </div>
+            <div class="sep">
+                <p id="tl4">until time 1</p>
+            </div>
+            <div class="sep">
+                <p id="tl5">until time 1</p>
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>
