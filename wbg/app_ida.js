@@ -42,7 +42,8 @@ function timeUntilBuses(busTimes) {
         'v': '\nEl Vellón',
         'a': '\nEst. Alc-S.S Reyes',
         'px': '\nPedrezuela express',
-        'ip': '\nPedrezuela<br>Sale desde superficie'
+        'ip': '\nPedrezuela<br>Sale desde superficie',
+        'nip': '\nPedrezuela (N104)<br>Sale desde superficie'
     };
     
     // Función auxiliar para convertir "hhmm" a minutos desde la medianoche
